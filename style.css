@@ -1,22 +1,52 @@
 body {
-    background-color: #82ecff;
+    background-color: #ff68ff;
 }
 h1 {
-    color:#faa6e7;
+    color:#150010;
     font-family: sans-serif ;
 text-align:center;
 font-size: sans-serif;
 }
     a:link {
-    color:#fae700;
+    color:#00d4fa;
 }
 a:visited {
-    color:#73ef9e
+    color:#97ffbb
 }
 a:hover {
-    color:#f4644a
+    color:#f8654a
 }
 a {
     text-decoration: none;
     font-size: 30pt;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.header{
+    width:100%;
+    background-color: #76a4ed
+}
+div.left {
+    float:left;
+    width:30%;
+   height:500px;
+    background-color: #e38bb1;
+}
+div.right {
+    float:left;
+    width: 70%;
+    height: 500px;
+background-color: #a58aff;
+}
+div.footer {
+    display: inline-block;
+        width:100%;
+    height: 100px;
+    background-color: #00b9e5;
+}
+
+p, a {
+    margin: 10px
 }
